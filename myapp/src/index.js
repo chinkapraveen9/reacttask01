@@ -12,7 +12,7 @@ import reportWebVitals from './reportWebVitals';
 // import Parent from "./accordian/parent"
 // import render from './accordian/child';
 // import Home from './cards/home/home';
-// import Sample from './task1';
+import Sample from './task1';
 // import Toggleswitch from './toggleswitch';
 // import Counter from './Counter';
 import Form from './sampleform.js/form';
@@ -28,10 +28,10 @@ root.render(
     {/* <BasicExample/> */}
     {/* <Parent/> */}
     {/* <Home/> */}
-    {/* <Sample/> */}
+    <Sample/>
     {/* <Toggleswitch/> */}
     {/* <Counter/>    */}
-  <Form/>
+  
     
   </React.StrictMode>
 );
